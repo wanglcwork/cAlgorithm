@@ -24,10 +24,10 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="SelectSort.h">
+    <ClInclude Include="SortBubble.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="SortBubble.h">
+    <ClInclude Include="SortSelect.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -38,10 +38,10 @@
     <ClCompile Include="CPlusPlusAlgorithm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="SelectSort.cpp">
+    <ClCompile Include="SortBubble.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="SortBubble.cpp">
+    <ClCompile Include="SortSelect.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
