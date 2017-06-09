@@ -19,7 +19,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	SortBubble::Bubble2(arr1, 5);
 	SortUtil::printArray(arr1, 5);
 
-	int arr3[5] = { 1, 3, 4, 2, 5 };
+	int arr3[5] = { 1, 4, 5, 2, 3 };
 	SortBubble::Bubble3(arr1, 5);
 	SortUtil::printArray(arr1, 5);
 
