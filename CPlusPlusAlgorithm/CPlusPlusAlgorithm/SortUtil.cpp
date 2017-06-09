@@ -19,7 +19,7 @@ void SortUtil::swap(int& a1, int& a2) {
 void SortUtil::printArray(int a[], int n) {
 	for (size_t i = 0; i < n; i++)
 	{
-		std::cout << *(a + i) << "";
+		std::cout << *(a + i) << " ";
 	}
 	std::cout << std::endl;
 }
