@@ -30,6 +30,9 @@
     <ClInclude Include="SortSelect.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="SortUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -42,6 +45,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="SortSelect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SortUtil.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
