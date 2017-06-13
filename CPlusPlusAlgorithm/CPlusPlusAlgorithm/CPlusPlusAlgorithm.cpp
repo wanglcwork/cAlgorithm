@@ -17,17 +17,17 @@ int _tmain(int argc, _TCHAR* argv[])
 	const int LEN = 5;
 
 // 	// 冒泡排序
-// 	int arr1[LEN] = { 1, 3, 4, 2, 5 }; // N必须是const常量
-// 	SortBubble::Bubble1(arr1, LEN);
-// 	SortUtil::printArray(arr1, LEN);
-// 
-// 	int arr2[LEN] = { 1, 3, 4, 2, 5 };
-// 	SortBubble::Bubble2(arr2, LEN);
-// 	SortUtil::printArray(arr2, LEN);
-// 
-// 	int arr3[LEN] = { 1, 4, 5, 2, 3 };
-// 	SortBubble::Bubble3(arr3, LEN);
-// 	SortUtil::printArray(arr3, LEN);
+	int arr1[LEN] = { 1, 3, 4, 2, 5 }; // N必须是const常量
+	SortBubble::Bubble1(arr1, LEN);
+	SortUtil::printArray(arr1, LEN);
+
+	int arr2[LEN] = { 1, 3, 4, 2, 5 };
+	SortBubble::Bubble2(arr2, LEN);
+	SortUtil::printArray(arr2, LEN);
+
+	int arr3[LEN] = { 1, 4, 5, 2, 3 };
+	SortBubble::Bubble3(arr3, LEN);
+	SortUtil::printArray(arr3, LEN);
 // 
 // 	// 插入排序
 // 	int arr4[LEN] = { 1, 4, 5, 2, 3 };
@@ -54,11 +54,11 @@ int _tmain(int argc, _TCHAR* argv[])
 // 	int arr9[LEN] = { 100, 4, 0, 30, 3 };
 // 	SortShell::shellSort1(arr9, LEN);
 // 	SortUtil::printArray(arr9, LEN);
-
-	// 选择排序
-	int arr10[LEN] = { 100, 4, 0, 30, 3 };
-	SortSelect::SortSelect1(arr10, LEN);
-	SortUtil::printArray(arr10, LEN);
+// 
+// 	// 选择排序
+// 	int arr10[LEN] = { 100, 4, 0, 30, 3 };
+// 	SortSelect::SortSelect1(arr10, LEN);
+// 	SortUtil::printArray(arr10, LEN);
 
 	system("pause"); // 需要包含 #include <iostream>
 	return 0;

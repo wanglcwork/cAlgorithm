@@ -13,12 +13,14 @@ SortBubble::~SortBubble()
 }
 
 void SortBubble::Bubble1(int a[], int n) {
+	int i = 0;
+	int j = 0;
 
-	for (size_t i = 0; i < n; i++)
+	for (i = 0; i < n; i++)
 	{
-		for (size_t j = 0; j < n-i; j++)
+		for (j = 1; j < n-i; j++) // 前面的i个元素已经是有序的泡泡了,只需要比较后面剩余元素的个数.
 		{
-			if (a[j - 1] > a[j])
+			if (a[j - 1] > a[j]) // j 的初始值,必须大于1,不然越界了哦.
 			{
 				// 类方法,得用::操作符来调用,不能用.,java是用.操作符.
 				/*SortUtil.swap(a[j - 1], a[j]);*/
@@ -33,14 +35,15 @@ void SortBubble::Bubble1(int a[], int n) {
 }
 
 void SortBubble::Bubble2(int a[], int n) {
-
+	int i = 0;
+	int j = 0;
 	bool flag = false;
 
 	// 从小到大,前面的要比后面的小,那如果前面的比后面的大了,是不是应该换个位置.=>java中的比较器或者lambda表达式,就返回1
-	for (size_t i = 0; i < n; i++)
+	for (i = 0; i < n; i++)
 	{	
 		flag = false;
-		for (size_t j = 0; j < n - i; j++)
+		for (j = 1; j < n - i; j++)
 		{
 			if (a[j - 1] > a[j])
 			{
@@ -53,7 +56,7 @@ void SortBubble::Bubble2(int a[], int n) {
 
 		}
 
-		if (!flag)
+		if (!flag) // 一遍循环,一个泡都没冒的话,就已经有序了,不用再冒泡了.
 		{
 			break;
 		}
@@ -63,12 +66,13 @@ void SortBubble::Bubble2(int a[], int n) {
 }
 
 void SortBubble::Bubble3(int a[], int n) {
-
+	int i = 0;
+	int j = 0;
 	int flag = 0;
 
-	for (size_t i = 0; i < n; i++)
+	for (i = 0; i < n; i++)
 	{
-		for (size_t j = 0; j < n - i; j++)
+		for (j = 1; j < n - i; j++)
 		{
 			if (a[j - 1] > a[j])
 			{
@@ -76,7 +80,7 @@ void SortBubble::Bubble3(int a[], int n) {
 				/*SortUtil.swap(a[j - 1], a[j]);*/
 
 				SortUtil::swap(a[j - 1], a[j]);
-				flag = j;
+				flag = j; // 不是记录true,而是记录了具体的位置.
 			}
 		}
 
