@@ -81,6 +81,7 @@
   <ItemGroup>
     <ClInclude Include="SortBubble.h" />
     <ClInclude Include="SortInsert.h" />
+    <ClInclude Include="SortMerge.h" />
     <ClInclude Include="SortSelect.h" />
     <ClInclude Include="SortShell.h" />
     <ClInclude Include="SortUtil.h" />
@@ -91,6 +92,7 @@
     <ClCompile Include="CPlusPlusAlgorithm.cpp" />
     <ClCompile Include="SortBubble.cpp" />
     <ClCompile Include="SortInsert.cpp" />
+    <ClCompile Include="SortMerge.cpp" />
     <ClCompile Include="SortSelect.cpp" />
     <ClCompile Include="SortShell.cpp" />
     <ClCompile Include="SortUtil.cpp" />

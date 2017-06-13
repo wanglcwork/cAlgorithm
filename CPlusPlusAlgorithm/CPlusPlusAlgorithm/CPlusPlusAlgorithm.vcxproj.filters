@@ -36,9 +36,6 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="SortUtil.h">
-      <Filter>Header Files\util</Filter>
-    </ClInclude>
     <ClInclude Include="SortBubble.h">
       <Filter>Header Files\sort</Filter>
     </ClInclude>
@@ -51,6 +48,12 @@
     <ClInclude Include="SortShell.h">
       <Filter>Header Files\sort</Filter>
     </ClInclude>
+    <ClInclude Include="SortUtil.h">
+      <Filter>Header Files\sort</Filter>
+    </ClInclude>
+    <ClInclude Include="SortMerge.h">
+      <Filter>Header Files\sort</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -58,9 +61,6 @@
     </ClCompile>
     <ClCompile Include="CPlusPlusAlgorithm.cpp">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="SortUtil.cpp">
-      <Filter>Source Files\util</Filter>
     </ClCompile>
     <ClCompile Include="SortBubble.cpp">
       <Filter>Source Files\sort</Filter>
@@ -72,6 +72,12 @@
       <Filter>Source Files\sort</Filter>
     </ClCompile>
     <ClCompile Include="SortShell.cpp">
+      <Filter>Source Files\sort</Filter>
+    </ClCompile>
+    <ClCompile Include="SortUtil.cpp">
+      <Filter>Source Files\sort</Filter>
+    </ClCompile>
+    <ClCompile Include="SortMerge.cpp">
       <Filter>Source Files\sort</Filter>
     </ClCompile>
   </ItemGroup>
