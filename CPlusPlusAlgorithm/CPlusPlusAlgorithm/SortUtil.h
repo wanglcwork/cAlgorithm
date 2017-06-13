@@ -1,6 +1,7 @@
 #pragma once
 
 // 类,只能在头文件中定义
+// 应该被添加到公共头文件,不用每个实现文件中都去包含了.stdafx.h
 
 class SortUtil {
 public:

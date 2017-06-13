@@ -1,8 +1,20 @@
-﻿Build started 2017/6/13 12:40:17.
+﻿Build started 2017/6/13 13:05:17.
      1>Project "C:\Users\wanglc-comp\Desktop\cAlgorithm\CPlusPlusAlgorithm\CPlusPlusAlgorithm\CPlusPlusAlgorithm.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\CPlusPlusAlgorithm.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt SortShell.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\CPlusPlusAlgorithm.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\CPlusPlusAlgorithm.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CPlusPlusAlgorithm.cpp SortBubble.cpp SortInsert.cpp SortSelect.cpp SortShell.cpp SortUtil.cpp
+         SortUtil.cpp
+     1>c:\users\wanglc-comp\desktop\calgorithm\cplusplusalgorithm\cplusplusalgorithm\sortutil.cpp(20): warning C4018: '<' : signed/unsigned mismatch
          SortShell.cpp
+         SortSelect.cpp
+         SortInsert.cpp
+         SortBubble.cpp
+     1>c:\users\wanglc-comp\desktop\calgorithm\cplusplusalgorithm\cplusplusalgorithm\sortbubble.cpp(17): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\wanglc-comp\desktop\calgorithm\cplusplusalgorithm\cplusplusalgorithm\sortbubble.cpp(40): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\wanglc-comp\desktop\calgorithm\cplusplusalgorithm\cplusplusalgorithm\sortbubble.cpp(69): warning C4018: '<' : signed/unsigned mismatch
+         CPlusPlusAlgorithm.cpp
+         Generating Code...
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\wanglc-comp\Desktop\cAlgorithm\CPlusPlusAlgorithm\Debug\CPlusPlusAlgorithm.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\wanglc-comp\Desktop\cAlgorithm\CPlusPlusAlgorithm\Debug\CPlusPlusAlgorithm.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\wanglc-comp\Desktop\cAlgorithm\CPlusPlusAlgorithm\Debug\CPlusPlusAlgorithm.lib" /MACHINE:X86 Debug\CPlusPlusAlgorithm.obj
          Debug\SortBubble.obj
@@ -16,4 +28,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:01.72
+Time Elapsed 00:00:10.32

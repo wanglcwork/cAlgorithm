@@ -6,6 +6,7 @@
 #include "SortUtil.h"
 #include "SortInsert.h"
 #include "SortShell.h"
+#include "SortSelect.h"
 #include <iostream>
 
 int _tmain(int argc, _TCHAR* argv[])
@@ -41,18 +42,23 @@ int _tmain(int argc, _TCHAR* argv[])
 // 	SortInsert::insertSort3(arr6, LEN);
 // 	SortUtil::printArray(arr6, LEN);
 
-	// Ï£¶ûÅÅÐò
-	int arr7[LEN] = { 1, 4, 5, 2, 3 };
-	SortShell::shellSort1(arr7, LEN);
-	SortUtil::printArray(arr7, LEN);
+// 	// Ï£¶ûÅÅÐò
+// 	int arr7[LEN] = { 1, 4, 5, 2, 3 };
+// 	SortShell::shellSort1(arr7, LEN);
+// 	SortUtil::printArray(arr7, LEN);
+// 
+// 	int arr8[LEN] = { 1, 4, 0, 2, 3 };
+// 	SortShell::shellSort1(arr8, LEN);
+// 	SortUtil::printArray(arr8, LEN);
+// 
+// 	int arr9[LEN] = { 100, 4, 0, 30, 3 };
+// 	SortShell::shellSort1(arr9, LEN);
+// 	SortUtil::printArray(arr9, LEN);
 
-	int arr8[LEN] = { 1, 4, 0, 2, 3 };
-	SortShell::shellSort1(arr8, LEN);
-	SortUtil::printArray(arr8, LEN);
-
-	int arr9[LEN] = { 100, 4, 0, 30, 3 };
-	SortShell::shellSort1(arr9, LEN);
-	SortUtil::printArray(arr9, LEN);
+	// Ñ¡ÔñÅÅÐò
+	int arr10[LEN] = { 100, 4, 0, 30, 3 };
+	SortSelect::SortSelect1(arr10, LEN);
+	SortUtil::printArray(arr10, LEN);
 
 	system("pause"); // ÐèÒª°üº¬ #include <iostream>
 	return 0;
