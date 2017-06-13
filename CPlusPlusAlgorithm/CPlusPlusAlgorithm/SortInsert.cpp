@@ -16,9 +16,11 @@ void SortInsert::insertSort1(int a[], int n) {
 	int i = 0;
 	int j = 0;
 	int k = 0;
-	
+
+	// 把第一个元素作为初始有序组.
 	for (i = 1; i < n; i++)
 	{
+		// 把当前第i个元素,与i之前的元素比较,如果找到比a[i]小的元素,就把a[i]放在那个元素的后面,形成新的有序数组.
 		for (j = i - 1; j >= 0; j--)
 		{
 			if (a[j] < a[i])
@@ -42,9 +44,10 @@ void SortInsert::insertSort1(int a[], int n) {
 }
 
 void SortInsert::insertSort2(int a[], int n) {
+	int i = 0;
 	int j = 0;
 
-	for (size_t i = 1; i < n; i++)
+	for (i = 1; i < n; i++)
 	{
 		int temp = a[i];
 		for (j = i - 1; j >=0 && a[j] > temp; j--)
