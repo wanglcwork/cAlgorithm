@@ -68,11 +68,12 @@ void SortBubble::Bubble2(int a[], int n) {
 void SortBubble::Bubble3(int a[], int n) {
 	int i = 0;
 	int j = 0;
+	int k = n;
 	int flag = 0;
 
 	for (i = 0; i < n; i++)
 	{
-		for (j = 1; j < n - i; j++)
+		for (j = 1; j < k; j++) // 遍历到上一次冒泡的最后一个交换位置即可.
 		{
 			if (a[j - 1] > a[j])
 			{
@@ -88,6 +89,9 @@ void SortBubble::Bubble3(int a[], int n) {
 		{
 			break;
 		}
+
+		k = flag;
+		flag = 0;
 
 	}
 
