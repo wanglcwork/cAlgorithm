@@ -54,6 +54,9 @@
     <ClInclude Include="SortMerge.h">
       <Filter>Header Files\sort</Filter>
     </ClInclude>
+    <ClInclude Include="SortQuick.h">
+      <Filter>Header Files\sort</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -78,6 +81,9 @@
       <Filter>Source Files\sort</Filter>
     </ClCompile>
     <ClCompile Include="SortMerge.cpp">
+      <Filter>Source Files\sort</Filter>
+    </ClCompile>
+    <ClCompile Include="SortQuick.cpp">
       <Filter>Source Files\sort</Filter>
     </ClCompile>
   </ItemGroup>

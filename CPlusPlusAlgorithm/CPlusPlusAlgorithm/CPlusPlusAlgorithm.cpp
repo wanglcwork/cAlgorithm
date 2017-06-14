@@ -8,6 +8,7 @@
 #include "SortShell.h"
 #include "SortSelect.h"
 #include "SortMerge.h"
+#include "SortQuick.h"
 #include <iostream>
 
 int _tmain(int argc, _TCHAR* argv[])
@@ -65,6 +66,11 @@ int _tmain(int argc, _TCHAR* argv[])
 	int arr11[LEN] = { 100, 4, 20, 30, 3};
 	SortMerge::mergeSort(arr11, LEN);
 	SortUtil::printArray(arr11, LEN);
+
+	// 快速排序
+	int arr12[LEN] = { 100, 4, 20, 30, 3 };
+	SortQuick::quickSort(arr12, 0, LEN-1);
+	SortUtil::printArray(arr12, LEN);
 
 	system("pause"); // 需要包含 #include <iostream>
 	return 0;
