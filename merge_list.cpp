@@ -108,13 +108,28 @@ ListNode* buildList(int num) {
 
 int main(int argc, char const *argv[])
 {
-	ListNode* head = buildList(10);
-	printList(head);
+	ListNode* L1 = buildList(5);
+	ListNode* L2 = buildList(5);
+	printList(L1);
+	printList(L2);
 
+	ListNode* head = mergeUnsortedList(L1, L2);
 	ListNode* sortedList = sortList(head);
 	printList(sortedList);
 
-	freeList(sortedList);
+	ListNode* L3 = buildList(5);
+	ListNode* L4 = buildList(5);
+	printList(L3);
+	printList(L4);
+
+	ListNode* head2 = mergeUnsortedList(L3, L4);
+	ListNode* sortedList2 = sortList(head2);
+	printList(sortedList2);
+
+	ListNode* head3 = mergeSortedList(sortedList, sortedList2);
+	printList(head3);
+
+	freeList(head3);
 
 	return 0;
 }
