@@ -66,6 +66,8 @@ public:
 			return *this;
 		}
 
+		delete[] data;
+
 		length = other.length;
 		data = other.data;
 
