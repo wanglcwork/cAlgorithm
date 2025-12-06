@@ -73,7 +73,7 @@ ListNode* sortList(ListNode* head) {
 }
 
 int getRandom() {
-    static std::mt19937 engine(std::chrono::system_clock::now().time_since_epoch().count());
+    static std::mt19937 engine(std::chrono::duration_cast<std::chrono::nanoseconds>(std::chrono::system_clock::now().time_since_epoch()).count());
     static std::uniform_int_distribution<int> int_dist(1, 100);
     return int_dist(engine);
 }
